@@ -372,6 +372,11 @@ projectContainer {
     box-shadow: 5px 5px 5px var(--yellow);
 }
 
+.projectIcons {
+    justify-content: flex-end;
+    gap: 8px;
+}
+
 h4 {
     margin: 0px auto;
 }
