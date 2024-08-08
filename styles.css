@@ -330,7 +330,8 @@ body {
     background-color: var(--light-yellow);
     grid-area: main;
     z-index: 0;
-    overflow: auto;
+    overflow: hidden;
+    
 }
 
 projectContainer {
@@ -353,6 +354,8 @@ projectContainer {
     column-gap: 20px;
     overflow: auto;
     max-height: 805px;
+    scrollbar-color: var(--yellow) var(--light-yellow);
+    scrollbar-width: thin;
 }
 
 .project {
@@ -432,5 +435,5 @@ h4 {
 .role {
     font-style: italic;
     font-size: smaller;
-    font-color: #4e769b;
+    color: #4e769b;
 }
