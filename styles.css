@@ -82,6 +82,10 @@
     100% { transform: rotate(0); }
   }
 
+html {
+    overflow: hidden;
+}
+
 body {
     display: grid;
     grid-template-columns: 240px auto;
