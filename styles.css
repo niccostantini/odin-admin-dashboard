@@ -169,6 +169,7 @@ body {
     gap: 23px;
     align-items: center;
     font-weight: bolder;
+    transition: all ease 0.2s;
 }
 
 .sectionItem:hover {
@@ -264,6 +265,7 @@ body {
     height: 32px;
     max-width: 350px;
     gap: 2px;
+    transition: all ease 0.2s;
 }
 
 .searchBar:hover {
@@ -338,9 +340,6 @@ projectContainer {
     grid-area: projects;
 }
 
-.main > div {
-    height:100%;
-}
 .main > div > h2 {
     padding-left: 50px;
 }
@@ -352,18 +351,25 @@ projectContainer {
     padding: 0 25px;
     row-gap: 25px;
     column-gap: 20px;
-    overflow: auto;
     max-height: 805px;
+    overflow: auto;
     scrollbar-color: var(--yellow) var(--light-yellow);
     scrollbar-width: thin;
 }
 
 .project {
     padding: 15px 24px;
-    border-left: solid 9px var(--dark-orange);
+    border-left: solid 9px var(--orange);
     background-color: var(--mid-yellow);
     border-radius: 20px;
     max-height: 806px;
+    transition: ease all 0.3s;
+}
+
+.project:hover {
+    border-left: solid 9px var(--dark-orange);
+    transition: ease all 0.3s;
+    box-shadow: 5px 5px 5px var(--yellow);
 }
 
 h4 {
@@ -381,6 +387,10 @@ h4 {
     grid-template-columns: 1fr;
     grid-template-rows: 0.7fr 0.7fr;
     background-color: var(--light-yellow);
+    max-height: 805px;
+    overflow: auto;
+    scrollbar-color: var(--yellow) var(--light-yellow);
+    scrollbar-width: thin;
 }
 
 .insights h2 {
@@ -394,6 +404,9 @@ h4 {
     border-radius: 20px;
     background-color: var(--mid-yellow);
     margin: 0 8px;
+    overflow: auto;
+    scrollbar-color: var(--yellow) var(--light-yellow);
+    scrollbar-width: thin;
 }
 
 .infoPiece {
