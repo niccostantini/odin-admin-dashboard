@@ -292,6 +292,7 @@ body {
     font-weight: bold;
     border-radius: 25px;
     padding: 10px 23px;
+    transition: all ease 0.1s;
 }
 
 .action:hover {
