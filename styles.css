@@ -128,6 +128,7 @@ body {
 .logo:hover svg {
     rotate: 360deg;
     transition: rotate ease 0.4s 0s;
+    cursor: pointer;
 }
 
 .icon {
