@@ -405,3 +405,32 @@ h4 {
 .announcements .infoPiece:first-child h4 {
     border-top: none;
 }
+
+.trending {
+    display: grid;
+    grid-template-rows: repeat(3, 53px);
+    gap: 20px;
+}
+
+.trend {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    padding-left: 25px;
+    gap: 10px;
+}
+
+.who {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 5px;
+}
+
+.mention {
+    font-weight: 550;
+}
+
+.role {
+    font-style: italic;
+    font-size: smaller;
+    font-color: #4e769b;
+}
