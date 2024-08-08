@@ -333,8 +333,9 @@ body {
     background-color: var(--color2);
     grid-area: main;
     z-index: 0;
-    overflow: hidden;
-    
+    overflow:scroll;
+    scrollbar-color: var(--color4) var(--color2);
+    scrollbar-width: thin;
 }
 
 projectContainer {
