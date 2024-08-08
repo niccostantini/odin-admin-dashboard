@@ -82,15 +82,6 @@
     100% { transform: rotate(0); }
   }
 
-:root {
-    --color1: #0D3B66;
-    --color2: #FAF0CA;
-    --color3: #fbeaa5;
-    --color4: #F4D35E;
-    --color5: #EE964B;
-    --color6: #F95738;
-}
-
 body {
     display: grid;
     grid-template-columns: 240px auto;
@@ -198,7 +189,7 @@ body {
     background-color: var(--color4);
     grid-area: header;
     justify-content: space-evenly;
-    box-shadow: 0px 5px 5px #d8b126 ;
+    box-shadow: 0px 5px 5px var(--shadow) ;
     z-index: 1;
 }
 
@@ -269,7 +260,7 @@ body {
 }
 
 .searchBar:hover {
-    background-color: #f7a558;
+    background-color: var(--searchbar-hover);
     transition: all ease 0.2s;
 }
 
@@ -296,11 +287,11 @@ body {
 }
 
 .action:hover {
-    background-color: #f7a558;
+    background-color: var(--searchbar-hover);
 }
 
 .action:active {
-    background-color:  #f7a558;
+    background-color:  var(--searchbar-hover);
     border: 2px solid var(--color6);
     transform: rotate3d(1, 0, 0, 20deg);
     box-shadow: 0 1px 0px var(--color6);
