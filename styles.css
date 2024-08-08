@@ -353,6 +353,7 @@ projectContainer {
     overflow: auto;
     scrollbar-color: var(--color4) var(--color2);
     scrollbar-width: thin;
+    margin-bottom: 30px;
 }
 
 .project {
@@ -391,9 +392,7 @@ h4 {
     grid-template-rows: 0.7fr 0.7fr;
     background-color: var(--color2);
     max-height: 805px;
-    overflow: auto;
-    scrollbar-color: var(--color4) var(--color2);
-    scrollbar-width: thin;
+    overflow: hidden;
 }
 
 .insights h2 {
